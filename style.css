@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    background-color: #f6f5ef;
+    height: 100px;
+}
+.nav-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    padding-bottom: 20px;
+    font-size: 14px;
+}
+.nav-1 > a{
+    padding-top: 10px;
+}
+.nav-head{
+    width: 800px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-side{
+    position: relative;
+    font-size: 13px;
+    display: flex;
+    bottom: 90px;
+    left: 45%;
+    
+}
+
+.nav-side > ul,form{
+    padding: 0 10px;
+}
+
+.new-me{
+    height: auto;
+    position: relative;
+}
+
+.new-me > img{
+    width: 100%;
+}
+
+.img{
+    display: flex;
+    top: 15%;
+    left: 7%;
+    position: absolute;
+}
+
+.img > *{
+    padding: 0 50px;
+}
+
+.img-button{
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.img-button > button{
+    position: absolute;
+    top: 50%;
+    height: 40px;
+    width: 100px;
+}
+.notice{
+    display: flex;
+    flex-grow: 1;
+}
+
+.notice-1{
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 6;
+    color: white;
+    background-color: #111;
+}
+
+.p-1{
+    padding-left: 15px;
+    display: block;
+}
+.p-2{
+    display: none;
+}
+
+.notice-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 6;
+    background-color: #f6f5ef;
+}
+
+.REWARDS{
+    height: 300px;
+    color: white;
+    background-color: #1e3932;
+    display: flex;
+    justify-content: center;
+}
+
+.REWARDS > img{
+    height: 200px;
+}
+
+.REWARDS-1{
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+}
+
+.spring{
+    position: relative;
+}
+
+.spring-1{
+    position: absolute;
+    top: 15%;
+    left: 30%;
+}
+
+.spring-2{
+    position: absolute;
+    top: 25%;
+    left: 130%;
+}
+
+.spring-2 > button{
+    margin-top: 50px;
+}
+
+.indo{
+    position: relative;
+}
+
+.indo-1{
+    position: absolute;
+    top: 0;
+}
+
+.indo-2{
+    position: absolute;
+    top: 18%;
+    left: 32%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.indo-2 > button{
+    margin-top: 30px;
+    width: 100px;
+    height: 50px;
+}
+
+.pick{
+    position: relative;
+}
+
+.pick-1{
+    position: absolute;
+    top: 15%;
+    right: 5%;
+}
+
+.pick-2{
+    position: absolute;
+    right: 110%;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.pick-2 *{
+    margin: 20px;
+}
+
+.pick-2 > button{
+    height: 50px;
+    width: 120px;
+}
+
+.mag{
+    position: relative;
+}
+
+.mag-1{
+    position: absolute;
+    top: 0;
+    right: 20%;
+}
+
+.mag-2{
+    position: absolute;
+    bottom: 40%;
+    right: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.mag-2 > button{
+    height: 50px;
+    width: 150px;
+    align-self: flex-start;
+    margin: 10px 100px;
+}
