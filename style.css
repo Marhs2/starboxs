@@ -43,6 +43,16 @@ header{
     position: relative;
 }
 
+.buy{
+    position: fixed;
+    z-index: 100;
+    right: 20%;
+}
+.buy-1{
+    height: 96px;
+    width: 140px;
+    background: url(https://image.istarbucks.co.kr/upload/banner/floatingbnr/Mn0ecH_20220711153123340.png);
+}
 .new-me > img{
     width: 100%;
 }
@@ -65,12 +75,25 @@ header{
     flex-direction: column;
 }
 
-.img-button > button{
+.img-button > a{
     position: absolute;
     top: 50%;
-    height: 40px;
-    width: 100px;
+    height: 30px;
+    width: 150px;
+    border: 2px black solid;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    color: black;
 }
+
+.img-button > a:hover{
+    transition: 1s;
+    color: white;
+    text-decoration: underline;
+    background-color: #1e3932;
+}
+
 .notice{
     display: flex;
     flex-grow: 1;
@@ -85,11 +108,23 @@ header{
     color: white;
     background-color: #111;
 }
+.notice-1 > a > img{
+    height: 35px;
+    position: relative;
+    right: -450px;
+}
 
 .p-1{
-    padding-left: 15px;
     display: block;
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
 }
+
+.p-1:hover{
+    text-decoration: underline;
+}
+
 .p-2{
     display: none;
 }
@@ -101,7 +136,10 @@ header{
     flex-grow: 6;
     background-color: #f6f5ef;
 }
-
+.notice-2 > img{
+    cursor: pointer;
+    margin-left: 30px;
+}
 .REWARDS{
     height: 300px;
     color: white;
@@ -111,6 +149,7 @@ header{
 }
 
 .REWARDS > img{
+    margin-top:20px ;
     height: 200px;
 }
 
@@ -124,11 +163,16 @@ header{
     position: relative;
 }
 
+.spring > img{
+    width: 100%;
+}
+
 .spring-1{
     position: absolute;
     top: 15%;
     left: 30%;
 }
+
 
 .spring-2{
     position: absolute;
@@ -136,8 +180,58 @@ header{
     left: 130%;
 }
 
-.spring-2 > button{
-    margin-top: 50px;
+.spring-2 > a{
+    text-decoration: none;
+    color: #91674a;
+    border: 2px #91674a solid;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.spring-2 > a:hover{
+    transition: 1s;
+    text-decoration: underline;
+    background-color: #91674a;
+    color: white;
+}
+
+.sign{
+    align-items: center;
+    padding-top: 20px;
+    display: flex;
+}
+
+.a-1,.a-2{
+    text-decoration: none;
+    color: white;
+}
+
+.a-1:hover,.a-2:hover{
+    text-decoration: underline;
+}
+.a-1{
+    background-color: #00b050;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.a-2{
+    border: 2px white solid;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+.gift{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.gift > a{
+    text-decoration: none;
+    color: white;
+    border: 2px white solid; 
+    border-radius: 5px;
 }
 
 .indo{
@@ -147,6 +241,10 @@ header{
 .indo-1{
     position: absolute;
     top: 0;
+}
+
+.indo > img{
+    width: 100%;
 }
 
 .indo-2{
@@ -164,10 +262,28 @@ header{
     height: 50px;
 }
 
+.indo-2 > a{
+    text-decoration: none;
+    color: #b87643;
+    border: 2px #b87643 solid;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.indo-2 > a:hover{
+    transition: 1s;
+    text-decoration: underline;
+    background-color: #b87643;
+    color: white;
+}
+
 .pick{
     position: relative;
 }
-
+.pick > img{
+    width: 100%;
+}
 .pick-1{
     position: absolute;
     top: 15%;
@@ -187,14 +303,30 @@ header{
     margin: 20px;
 }
 
-.pick-2 > button{
-    height: 50px;
-    width: 120px;
+.pick-2 > a{
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.pick-2 > a:hover{
+    transition: 1s;
+    text-decoration: underline;
+    background-color: #fff;
+    color: black;
 }
 
 .mag{
     position: relative;
 }
+
+.mag > img{
+    width: 100%;
+}
+
 
 .mag-1{
     position: absolute;
@@ -210,9 +342,157 @@ header{
     flex-direction: column;
 }
 
-.mag-2 > button{
+.mag-2 > a{
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 100px;
+
+}
+
+.mag-2 > a:hover{
+    transition: 1s;
+    text-decoration: underline;
+    background-color: black;
+    color:white ;
+}
+.with{
+    height: 100%;
+    position: relative;
+}
+
+.ma > a{
+    position: absolute;
+    top: 75%;
+    right: 30%;
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 100px;
+}
+
+.ma > a:hover{
+    transition: 1s;
+    text-decoration: underline;
+    background-color: black;
+    color:white ;
+}.img1{
+    position: absolute;
+    top: 45%;
+    left: 40%;
+}
+
+.img2{
+    top: 0;
+    left: 30%;
+    position: absolute;
+}
+
+.img3{
+    position: absolute;
+    top: 30%;
+    right: 20%;
+}
+
+
+.img4{
+    position: absolute;
+    top: 47%;
+    right: 20%;
+}
+.img5{
+    position: absolute;
+    bottom: 0;
+    right: 15%;
+}
+
+.nav-footer{
+    background-color: #2C2A29;
+    color: white;
+}
+
+.nav-footer-1{
+    margin-left: 400px;
+    width: 1500px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-footer-1 > ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-footer-1 > ul > h2{
+    font-size: 17px;
+}
+.nav-footer-1 > ul > *{
+    font-size: 12px;
+    color: white;
+    margin: 5px;
+    text-decoration: none;
+}
+
+.img-footer{
+    background-color: #282828;
     height: 50px;
-    width: 150px;
-    align-self: flex-start;
-    margin: 10px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-footer a > img{
+    height: 30px;
+}
+
+.rule{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #282828;
+}
+
+.rule article a,span,p{
+    align-items: center;
+    margin: 10px;
+    font-size: 10px;
+}
+.rule > *{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #999;
+}
+.rule-1{
+    display: flex;
+}
+.rule-1 > a{
+    margin: 10px;
+    text-decoration: none;
+    color: #999;
+}
+
+
+.rule-1 > hr{
+    height: 20px;
+    background-color: #999;
+}
+.way > a{
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    border: 2px white solid;
+    border-radius: 2px;
+}
+
+.way > a:hover{
+    text-decoration: underline;
 }
