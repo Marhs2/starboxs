@@ -7,6 +7,9 @@
 header{
     background-color: #f6f5ef;
     height: 100px;
+    position: sticky;
+    top: 0;
+    z-index: 101;
 }
 .nav-1{
     display: flex;
@@ -46,6 +49,7 @@ header{
 .buy{
     position: fixed;
     z-index: 100;
+    top: 10%;
     right: 20%;
 }
 .buy-1{
@@ -232,6 +236,12 @@ header{
     color: white;
     border: 2px white solid; 
     border-radius: 5px;
+}
+
+.gift > a:hover{
+    transition: 1s;
+    text-decoration: underline;
+    color: white;
 }
 
 .indo{
